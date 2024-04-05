@@ -1,38 +1,76 @@
-.App {
+body{
+  background-color: bisque;
+}
+
+.App{
+  padding-left: 25%;
+  width: 60rem;
+}
+
+.person{
+  font-size: 60px;
+  font-family: serif;
+  color: blue;
+  text-decoration: underline;
+  letter-spacing: -3px;
+  word-spacing: 10px;
+}
+
+img{
+  border: 2px solid #f82727;
+  border-radius: 25px !important;
+}
+
+button{
+  padding: 15px 25px;
+  font-size: 25px;
+  font-family: serif;
+  cursor: grab;
   text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7fc281;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #bcb7b7;
+}
+button:hover{
+  background-color: #1f7c22
+}
+button:active{
+  background-color: #27872c;
+  box-shadow: 0 5px #3d3c3c;
+  transform: translateY(6px);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile{
+  padding-top: 7%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tsm{
+  font-size: 27px;
+  font-family: serif;
+  color: rgb(248, 11, 63);
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.name{
+  font-size: 45px;
+  font-family: serif;
+  margin-bottom: -15px;
 }
 
-.App-link {
-  color: #61dafb;
+.bio{
+  font-size: 20px;
+  font-family: serif;
+  letter-spacing: normal;
+  line-height: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  font-size: 30px;
+  font-family: serif;
+  font-weight: 700;
+  color: rgb(20, 1, 1);
 }
